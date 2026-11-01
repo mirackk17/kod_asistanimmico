@@ -1,4 +1,15 @@
 PROJE YAZARI::MİRAC KARAKULAK
 #PROJE ADI:kod_asistanı v0.1
-PROJENİN AMACI: Gelişmiş yapay zeka, Benim projemin amacı daha çok yazılımcılara hitap eden bir yapay zeka. Bu yapay zeka çoğunlukla kod yazılımcılarının aynı zamanda kod asistanı olucak. Ve aynı zamanda hesaplama gibi işlerde yardımcı bir asistan. Kod yazılırken küçük bir hatayı görür ve hatayı düzelterek yazılımcının zaman kaybetmesini önler
+#PROJENİ AMACI:  Kullanıcılara günlük işlerinde (hesaplama, selamlama vb.) yardımcı
+olacak bir dijital asistan tasarlamak
+## Projenin Hedefleri:v1.0 sürümünde akıllı menü ve gelişmiş karar yapıları entegre edilecektir.
 #kod_asistanimmico
+Adım1: BAŞLA.
+Adım2: Sayaç ve sensör başlangıç değerlerini belirle (saat = 1).
+Adım3: Saatlik su seviyesi verisini oku ($su\_seviyesi$).
+Adım4: EĞER su\_seviyesi > 50 İSE:
+Ekrana "Kritik eşik aşıldı! Tahliye başlatılıyor." uyarısını yazdır.
+DÖNGÜYÜ KIR (Break).
+Adım5: DEĞİLSE:
+Saat sayacını artır ve 3. Adım'a dön.
+Adım: DUR.
